@@ -21,7 +21,7 @@ Se debe crear una página web sencilla que tenga:
 - Cada proceso de creación, edición, eliminación y obtención de datos se debe ver reflejado en la base de datos.
 
 > En el siguiente enlace podras ingresar al codigo realizado en React [frontend]
-
+> Link web https://web-semillero.herokuapp.com/
 #### Requisitos Back End (express.js y BD)
 - Se debe realizar el modelo entidad - relación del problema propuesto. 
     - Se deben de definir correctamente las entidades (Sólo los mencionados en el universo del discurso).
@@ -54,7 +54,7 @@ Se debe crear una página web sencilla que tenga:
 - Los datos de conexión a base de datos deben manejar como variables de entorno (.env)
 - Se debe utilizar Router() para el manejo de rutas
 > En el siguiente enlace podras ingresar al codigo realizado del [backend]
-
+> Link API Rest https://api-semillero.herokuapp.com/api/index
 
 
 ## Construido
