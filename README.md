@@ -2,6 +2,7 @@
 
 El proyecto original junto con su historial de subidas (commits) esta alojado en [plmlmontano/semillero-sas]
 ## Proyecto Sprint 1 Backend
+Plataforma para la empresa Semillero S.A.S donde podra tener un control de sus vehiculos en su poder.
 
 ### Problema
 Actualmente, la empresa ***Semillero S.A.S*** quiere implementar una base de datos que le permita tener un control más preciso de los vehículos que tienen en la compañía, se desea guardar las diferentes marcas de vehículos que tiene la compañía, de estas marcas se quiere almacenar la descripción y si la marca está activa en la compañía. También cada marca puede tener 1 o muchas líneas de vehículos, de cada línea se quiere almacenar la descripción de la línea y si está activa. Por último, se quiere almacenar cada uno de los vehículos, para eso se quiere guardar el número de placa, el modelo, fecha de vencimiento seguro y fecha de vencimiento de la tecnomecánica, cada vehículo puede estar asociado a una línea, y una línea puede tener muchos vehículos. Todos los datos son importantes para la compañía así que todos deben ser guardados. 
@@ -54,6 +55,43 @@ Se debe crear una página web sencilla que tenga:
 - Se debe utilizar Router() para el manejo de rutas
 > En el siguiente enlace podras ingresar al codigo realizado del [backend]
 
+
+
+## Construido
+### Herramientas Tecnológicas
+- Backend
+  * Nodejs
+  * Mysql2
+  * Express
+  * ES6+
+- Frontend
+  * React.js
+  * Mui material
+  * Sweet alert 2
+  * axios
+- Otras
+  * Git
+  * Heroku
+  * Github
+  * Postman
+  * Digital Ocean
+
+## Contribuyendo
+
+Contribuya usando GitHub Flow. Cree una rama, agregue confirmaciones y abra una solicitud de extracción .
+
+## Versionado
+v1
+
+## Autores
+* **Lina María Montaño Ramírez** - *Backend Developer* - [@calypsobronte]
+
+
+## Licencia
+MIT License
+
+
 [plmlmontano/semillero-sas]: https://github.com/plmlmontano/semillero-sas
 [frontend]: frontend
 [backend]: backend
+[@calypsobronte]: https://github.com/calypsobronte
