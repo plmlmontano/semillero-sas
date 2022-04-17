@@ -19,7 +19,41 @@ Se debe crear una página web sencilla que tenga:
 - Para el tema de las peticiones se recomienda utilizar fetch o axios. 
 - Cada proceso de creación, edición, eliminación y obtención de datos se debe ver reflejado en la base de datos.
 
-> En el siguiente enlace podras ingresar al codigo realizado del [frontend] 
+> En el siguiente enlace podras ingresar al codigo realizado del [frontend]
+
+#### Requisitos Back End (express.js y BD)
+- Se debe realizar el modelo entidad - relación del problema propuesto. 
+    - Se deben de definir correctamente las entidades (Sólo los mencionados en el universo del discurso).
+    - Se deben definir correctamente los atributos. 
+    - Se debe evidenciar los tipos de atributos. 
+    - Se debe evidenciar los tipos de entidad (débil, fuerte).
+- Se debe realizar el modelo relacional
+    - Se debe pasar el modelo e-r a Relacional
+    - Se debe especificar las claves foráneas y primarias 
+    - Tener en cuenta la simbología al realizar las relaciones.
+- Realizar el script de creación de tablas
+    - En el campo activo los valores posibles son S y N. Implementarlos como campos SET o ENUM.
+- La base de datos debe estar en MySQL
+- Se debe levantar un servidor con express.js
+    - Se deben de realizar los siguientes servicios REST:
+         - Crear vehiculo POST
+        - Actualizar vehículo por identificador PUT o PATCH
+        - Eliminar vehículo por identificador DELETE
+        - Obtener todos los vehículos creados GET 
+        - Un servicio que permita registrar una nueva marca
+        - Un servicio que permita registrar una nueva línea
+        - Un servicio que indique cuál es el modelo máximo almacenado y el mínimo. 
+        - Un servicio que me permita consultar todos los vehículos por un rango de fechas sobre el campo FECHA_VEN_SEGURO.
+        - Un servicio que me permita saber cuál es el modelo máximo almacenado y el mínimo.
+        - Un servicio que me permita consultar todos los vehículos por un rango de modelos por el campo modelo.
+        - Un servicio que me permita realizar una consulta única que tenga las siguientes columnas: NRO_PLACA, MODELO, DESC_LINEA, DESC_MARCA; traer todos los registros de la tabla donde almacenes los vehículos que se encuentren en el estado S en el campo activo de la tabla donde se almacene las líneas.
+        - Un servicio que me permita sumar todos los modelos.
+        - Un servicio que me permita promediar todos los modelos.
+        - Un servicio que me permita realizar una única consulta para saber cuántos registros están activos e inactivos de la tabla donde se almacenan las líneas .
+- Los datos de conexión a base de datos deben manejar como variables de entorno (.env)
+- Se debe utilizar Router() para el manejo de rutas
+> En el siguiente enlace podras ingresar al codigo realizado del [backend]
 
 [plmlmontano/semillero-sas]: https://github.com/plmlmontano/semillero-sas
 [frontend]: frontend
+[backend]: backend
