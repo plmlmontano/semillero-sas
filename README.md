@@ -19,7 +19,7 @@ Se debe crear una página web sencilla que tenga:
 - Para el tema de las peticiones se recomienda utilizar fetch o axios. 
 - Cada proceso de creación, edición, eliminación y obtención de datos se debe ver reflejado en la base de datos.
 
-> En el siguiente enlace podras ingresar al codigo realizado del [frontend]
+> En el siguiente enlace podras ingresar al codigo realizado en React [frontend]
 
 #### Requisitos Back End (express.js y BD)
 - Se debe realizar el modelo entidad - relación del problema propuesto. 
